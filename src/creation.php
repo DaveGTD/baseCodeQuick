@@ -30,9 +30,7 @@ function output($Return=array()){
 // end include stuff
 
 
-if((empty($_SERVER['HTTP_X_REQUESTED_WITH']) or strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') or empty($_POST)){/*Detect AJAX and POST request*/
-  exit("Unauthorized Acces");
-}
+
 
 /* Check Registration form submitted */
 if(!empty($_POST) && $_POST['Action']=='create_user'){
