@@ -63,7 +63,14 @@
       <div class="container-fluid">
       	<div class="row">
       		<div class="col-md-12">
-      			<form role="form">
+      			<form role="form" action="creation.php" id="create_user">
+              <div class="form-group">
+
+                <label for="input_name">
+                  Name
+                </label>
+                <input type="text" class="form-control" id="input_name" />
+              </div>
       				<div class="form-group">
 
       					<label for="input_email">
@@ -91,7 +98,7 @@
       					Submit
       				</button>
       			</form>
-      		</div>    
+      		</div>
 
       	</div>
       </div>
