@@ -63,7 +63,7 @@
       <div class="container-fluid">
       	<div class="row">
       		<div class="col-md-12">
-      			<form role="form" action="creation.php" id="create_user">
+      			<form role="form" action="creation.php" id="create_user" method="POST">
               <div class="form-group">
 
                 <label for="input_name">
