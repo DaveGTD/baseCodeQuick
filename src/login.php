@@ -99,6 +99,21 @@
       				</button>
       			</form>
       		</div>
+
+          <div class="container-fluid">
+          	<div class="row">
+              <form role="form" action="createUser.php">
+            		<div class="col-md-12">
+
+            			<button type="submit" class="btn btn-default">
+            				Create
+            			</button>
+            		</div>
+            </form>
+          	</div>
+          </div>
+
+
       	</div>
       </div>
 
