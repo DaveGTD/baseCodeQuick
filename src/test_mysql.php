@@ -21,7 +21,8 @@ if ($result->num_rows > 0)
     // output data of each row
     while($row = $result->fetch_assoc())
     {
-        echo "$row['user_id']  $row['user_GUID'] $row['email'] $row['password'] $row['entry_date'] $row['status'] <br>";
+        echo $row['user_id'];
+        echo "<br>";
     }
 } else {
     echo "0 results";
