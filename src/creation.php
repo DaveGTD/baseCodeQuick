@@ -1,7 +1,7 @@
 <?php
 
 // include stuff
-// session_start(); /* Session */
+session_start(); /* Session */
 $con=mysqli_connect("localhost","root","root","pls"); /*Database Connection*/
 
 /*Function to get users data*/
